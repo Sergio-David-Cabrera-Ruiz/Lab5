@@ -291,7 +291,7 @@ namespace Lab5.Estructuras
             return this.MemberwiseClone();
         }
 
-        public IEnumerator<T> ObtenerEnumerador()
+        public IEnumerator<T> GetEnumerator()
         {
             var copiaCola = new Cola<T>() { Raiz = this.Raiz, NumeroTarea = this.NumeroTarea };
             var actual = copiaCola.Raiz;
@@ -302,9 +302,9 @@ namespace Lab5.Estructuras
             }
         }
 
-        IEnumerator IEnumerable.ObtenerEnumerador()
+        IEnumerator IEnumerable.GetEnumerator()
         {
-            return ObtenerEnumerador();
+            return GetEnumerator();
         }
     }
 }

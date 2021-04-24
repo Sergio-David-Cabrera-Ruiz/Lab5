@@ -1,5 +1,20 @@
 ﻿@{
-    ViewBag.Title = "Tareas";
+    ViewBag.Title = "Index";
 }
 
-<h2>Tareas</h2>
+<h2 style="text-align: center">2-Doo </h2>
+
+<br />
+
+@using (Html.BeginForm("Index", "Tareas", FormMethod.Post))
+{
+    <br />
+    <div style="text-align: center">
+        <button type="submit" value="NuevaTarea" name="Option" style="width:300px;height:30px">Ingresar Nueva Tarea</button>
+    </div>
+    <br />
+    <div style="text-align: center">
+        <button type="submit" value="ListaTareas" name="Option" style="width:300px;height:30px">Lista de Tareas</button>
+    </div>
+    <br />
+}

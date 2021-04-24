@@ -167,7 +167,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\IngresoTarea.cshtml" />
+    <Content Include="Views\Home\NuevaTarea.cshtml" />
+    <Content Include="Views\Home\ListaTarea.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

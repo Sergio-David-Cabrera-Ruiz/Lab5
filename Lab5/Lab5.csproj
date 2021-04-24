@@ -122,10 +122,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Auxiliar\Almacenamiento.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\TareaController.cs" />
+    <Compile Include="Estructuras\Cola.cs" />
+    <Compile Include="Estructuras\ColaNodo.cs" />
+    <Compile Include="Estructuras\Hash.cs" />
+    <Compile Include="Estructuras\HashNodo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Tarea.cs" />
     <Compile Include="Models\TareaStruct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -164,11 +168,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\IngresoTarea.cshtml" />
-    <Content Include="Views\Tarea\Create.cshtml" />
-    <Content Include="Views\Tarea\Delete.cshtml" />
-    <Content Include="Views\Tarea\Details.cshtml" />
-    <Content Include="Views\Tarea\Edit.cshtml" />
-    <Content Include="Views\Tarea\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
